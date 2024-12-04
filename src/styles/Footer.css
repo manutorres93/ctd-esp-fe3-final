@@ -1,0 +1,22 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--footer-bg); /* Color dinámico */
+  }
+  
+  .footer img {
+    height: 40px; /* Ajusta el tamaño de la imagen principal */
+  }
+  
+  .social-icons img {
+    height: 20px;
+    margin: 0 5px;
+    filter: invert(1); /* Colores invertidos para temas claros */
+  }
+  
+  .social-icons img:hover {
+    filter: invert(0.5); /* Feedback visual al pasar el cursor */
+  }
+  

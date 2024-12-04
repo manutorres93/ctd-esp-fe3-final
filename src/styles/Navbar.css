@@ -1,0 +1,69 @@
+/* Reinicio de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #root {
+    height: 100vh; /* Ocupa toda la pantalla */
+  }
+  
+  /* Estilo del navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--navbar-bg); /* Fondo dinámico */
+    width: 100%; /* Ocupa todo el ancho de la pantalla */
+    position: relative;
+  }
+  
+  /* Logo y texto DH Odonto */
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px; /* Espaciado entre texto y logo */
+    color: var(--navbar-text, white); /* Color dinámico */
+  }
+  
+  .navbar-title-d {
+    color: #ff69b4; /* Rosado */
+  }
+  
+  .navbar-logo img {
+    height: 40px;
+  }
+  
+  /* Links */
+  .navbar-links {
+    display: flex;
+  }
+  
+  .navbar-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--navbar-text, black); /* Color dinámico */
+  }
+  
+  /* Botón de cambio de tema */
+  .theme-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .theme-button img {
+    height: 20px;
+  }
+  
