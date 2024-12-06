@@ -1,4 +1,3 @@
-
 import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -7,11 +6,10 @@ import Contact from "./Routes/Contact";
 import Detail from "./Routes/Detail";
 import Favs from "./Routes/Favs";
 import React, { useContext } from "react";
-import { GlobalContext } from "./context/GlobalContext"; // 
-
+import { GlobalContext } from "./context/GlobalContext"; 
 
 const App = () => {
-  const { state, toggleTheme } = useContext(GlobalContext); // Obtén el estado y la función de toggle
+  const { state, toggleTheme } = useContext(GlobalContext); 
 
   return (
     <div className={state.theme}>
